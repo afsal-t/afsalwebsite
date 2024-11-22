@@ -1,4 +1,5 @@
 // large_screen.dart
+import 'package:afsalwebsite/afsal%20website/project%20ui.dart';
 import 'package:afsalwebsite/afsal%20website/skill%20page.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -36,7 +37,9 @@ class LargeScreen extends StatelessWidget {
                   navButton("About", onPressed: () {
                     Navigator.push(context, MaterialPageRoute(builder: (context)=> AboutPage()));
                   }),
-                  navButton("Projects", onPressed: () {}),
+                  navButton("Projects", onPressed: () {
+                    Navigator.push(context, MaterialPageRoute(builder: (context)=>ProjectOverviewPage()));
+                  }),
                   navButton("Skills", onPressed: () {
                     Navigator.push(context, MaterialPageRoute(builder: (context)=> SkillsPage()));
                   }),

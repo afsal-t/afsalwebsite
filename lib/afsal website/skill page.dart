@@ -1,4 +1,3 @@
-// skills_page.dart
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -8,12 +7,11 @@ class SkillsPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.brown,
       body: Container(
         width: double.infinity,
         decoration: BoxDecoration(
           gradient: LinearGradient(
-            colors: [Colors.brown.shade700, Colors.brown.shade300],
+            colors: [Colors.indigo.shade700, Colors.purple.shade400],
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
           ),
@@ -60,4 +58,5 @@ class SkillsPage extends StatelessWidget {
     );
   }
 }
+
 
